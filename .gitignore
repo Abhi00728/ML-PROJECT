@@ -1,4 +1,11 @@
-Data/
+# Ignore everything inside data/ and Data/ by default
+data/*
+Data/*
+
+# Allow only .parquet files inside data/
+!data/*.parquet
+
+# Block raw data and model binaries anywhere else in the repo
 *.csv
 *.csv.gz
 *.pkl
