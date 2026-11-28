@@ -1,0 +1,1 @@
+# trains and compares Decision Tree, Random Forest, PCA + model, and all prescribed Boosting algorithms on identical splits, saves metrics to a CSV, and saves your best pipeline to .joblib for the UI.

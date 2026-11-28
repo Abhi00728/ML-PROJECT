@@ -1,0 +1,1 @@
+# drops issue_year and those 14 schema-change columns, adds the 2 missingness flags, splits train/test cleanly, and builds the ColumnTransformer (imputation + encoding + scaling) fitted strictly on X_train.
